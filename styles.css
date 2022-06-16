@@ -18,6 +18,7 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: auto;
 }
 
 .intro {
@@ -33,7 +34,17 @@ h2 {
 
 .intro p {
 	font-weight: 400px;
+	font-size: 14px;
 	padding: 25px 0;
+}
+
+.parag {
+	box-shadow: 5px 5px 5px grey;
+}
+
+.parag p {
+	text-align: center;
+	font-size: 13px;
 }
 
 .form-reg {
@@ -47,6 +58,7 @@ h2 {
 	width: 80%;
 	margin: 10px 0;
 	border-radius: 10px;
+	box-shadow: 5px 5px 5px grey;
 }
 
 .form-reg form {
@@ -70,8 +82,21 @@ input {
 #submit {
 	background-color: hsl(154, 59%, 51%);
 	border: none;
+	box-shadow: 5px 5px 5px grey;
+	color: inherit;
+	font-weight: 300px;
 }
 
+.small {
+	color: black;
+	text-align: center; 
+	margin-top: 15px;
+}
+
+.small a {
+	color: red;
+	text-decoration: none;
+}
 
 
 
