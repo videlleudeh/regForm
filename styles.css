@@ -193,9 +193,9 @@ input {
 @media screen and (max-width: 375px) {
 
 	body {
-	background-image: url("images/bg-intro-desktop.png");
-	background-color: hsl(0, 100%, 74%);
-	text-align: center;
+		background-image: url("images/bg-intro-desktop.png");
+		background-color: hsl(0, 100%, 74%);
+		text-align: center;
 	}
 
 	.intro, .form-reg {
